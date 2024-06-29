@@ -1,4 +1,4 @@
-name: Download csv
+name: download data and deploy
 
 on:
  schedule:
