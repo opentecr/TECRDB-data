@@ -24,7 +24,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: download from google drive
-        run: wget -O data.csv https://docs.google.com/spreadsheets/d/1jLIxEXVzE2SAzIB0UxBfcFoHrzjzf9euB6ART2VDE8c/export?format=csv&gid=1025642996 
+        run: wget -O data.csv "https://docs.google.com/spreadsheets/d/1jLIxEXVzE2SAzIB0UxBfcFoHrzjzf9euB6ART2VDE8c/export?format=csv&gid=1025642996"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
